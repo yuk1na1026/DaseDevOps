@@ -80,8 +80,3 @@ jobs:
             docker-compose -f scp/devops_demo/docker-compose.yml stop
             docker-compose -f scp/devops_demo/docker-compose.yml pull
             docker-compose -f scp/devops_demo/docker-compose.yml up -d
-<<<<<<< Updated upstream
-            docker image prune -f
-=======
-            docker image prune -f
->>>>>>> Stashed changes
